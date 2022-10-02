@@ -8,13 +8,24 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
     <body>
-    
-    @include('partials.header')
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="{{route('Homepage')}}">Home</a>
+                    </li>
+                    <li>
+                        <a href="{{route('ListaFumetti')}}">Lista Fumetti</a>
+                    </li>
+                </ul>
+            </nav>
+        
+       
 
     <main>
      
      @yield('content')  
-      sfsqfqfdfddfdff
+      
     </main>        
         
     @include('partials.footer')

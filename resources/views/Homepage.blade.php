@@ -4,6 +4,6 @@
 
 
 @section('content')
-<h1>cazzo non funziona</h1>
+<h1>funziona</h1>
 @endsection
 
