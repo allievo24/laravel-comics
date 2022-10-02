@@ -1,0 +1,18 @@
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+}
+
+.cont img {
+  width: 100%;
+  margin: auto;
+}
+
+.cont .fumetti {
+  width: calc(16.6666666667% - 1rem);
+  margin: 2rem auto;
+  padding: 2rem, 2rem;
+  color: white;
+}
+

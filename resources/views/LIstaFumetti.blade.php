@@ -14,6 +14,21 @@
 
         @section('content')
         <h1>Lista Fumetti</h1>
+        <div class='cont'>
+            
+                @foreach ($Comics as $Comic)
+                <div class='fumetti'>
+                    <img src="{{$Comic['thumb']}}" alt=""> 
+                    <h3>{{$Comic['title']}}</h3>
+                    <span>{{$Comic['series']}}</span>
+                    <span>{{$Comic['type']}}</span>
+
+                </div>
+                @endforeach
+
+            
+        </div>
+        
         @endsection
         
         
